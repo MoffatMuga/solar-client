@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
           <body className={raleway.className}>
-            <div>
+            <div className='container'>
               <Navbar />
               {children}
             </div>
