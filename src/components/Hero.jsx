@@ -19,8 +19,8 @@ export default function Hero() {
 
   return (
     <div>
-        <div className='relative flex mt-4'>
-            <Image src={images[currentImg]} height={400} width={400} className='w-screen object-cover items-center h-[500px]'/>
+        {/* <div className='relative flex flex-col mt-4'>
+            <Image src={images[currentImg]} height={400} width={400} className=' object-cover items-center'/>
             <div className="absolute inset-0 flex justify-between items-center ">
               <button className="text-white text-4xl px-3 py-2   border-4" onClick={prevImg}>
                 {'<'}
@@ -29,6 +29,12 @@ export default function Hero() {
                  {'>'}
               </button>
           </div>
+        </div> */}
+
+        <div>
+            <div className=''>
+
+            </div>
         </div>
     </div>
   )

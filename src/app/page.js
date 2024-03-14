@@ -11,11 +11,11 @@ export default function home() {
   return (
 
       <div className=' pt-0 '>
-          <div>
+          {/* <div>
             <section>
               <Hero />
             </section>
-          </div>
+          </div> */}
 
         
             <div >

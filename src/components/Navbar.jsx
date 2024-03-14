@@ -6,8 +6,8 @@ import Links from './links/Links'
 
 export default function Navbar() {
   return (
-    <div className=' flex h-16 justify-between shadow-lg z-50'>
-        <div className='flex j flex-col items-center '>
+    <div className=' justify-between flex shadow-lg md:flex-row'>
+        <div className='flex  flex-col items-center '>
             <p className='rounded-full bg-main-1 text-white px-3 py-1 mt-1'>
                 Solar
             </p>
@@ -16,7 +16,7 @@ export default function Navbar() {
             </p>
         
         </div>
-        <div className='flex pt-4 '>  
+        <div className=' pt-4 '>  
             <Links />
         </div>
        
