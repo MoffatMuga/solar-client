@@ -5,17 +5,6 @@ import { Icon } from '@iconify/react';
 
 export default function Hero() {
 
-    const images = ["/solar-1.jpg", "/solar-2.jpg", "/solar-3.jpg" ]
-
-    const [currentImg, setCurrentImg] = useState(0)
-
-  const nextImg = () => {
-    setCurrentImg((prev) => (prev === images.length -1 ? 0 :prev + 1 ))
-  }
-  const prevImg = () => {
-    setCurrentImg((prev) => (prev === 0 ? images.length -1 : prev -1 ))
-  }
-
 
   return (
     <div>
@@ -32,9 +21,38 @@ export default function Hero() {
         </div> */}
 
         <div>
-            <div className=''>
+            <section className='pt-6'>
+              <div className='pt-14'>
+                <div className='md:flex items-center sm:flex-col md:flex-row justify-between bg-main-5'>
+                  <div className='w-full md:basis-1/2 mb:8 md:mb-0'>
+                    <h2>
+                      Welcome 
+                    </h2>
+                  </div>
+                  <div className='md:basis-1/2 items-center '>
+                    <Image src='/solar-1.jpg'width={400} height={400} className=' w-[500px] h-[500px] object-cover'/>
+                    
+                  </div>
+                </div>
 
-            </div>
+              </div>
+              <div className='pt-14'>
+                  <div className='  flex justify-center items-center gap-8 sm:px-2'>
+                      <hr className='w-20 border-2 border-main-1 items-center'/>
+                      <h2 className='text-3xl text-text-color text-center font-[700]'>
+                        WHAT WE OFFER
+                      </h2>
+                      <hr className='w-20 border-2 border-main-1 items-center'/>
+                  </div>
+                  <p className='text-center md:px-57 italic text-balance text-black/60 mt-8'>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quam dolor nulla nihil error maiores dolore, placeat modi nemo at laudantium facilis, sit asperiores. Unde velit eum voluptatem saepe minima?
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sapiente! Totam sint quos molestiae illo voluptatum alias ducimus, provident dolores hic nihil expedita, necessitatibus beatae, facere qui ipsam reprehenderit voluptas.
+                    
+                  </p>
+              </div>
+
+            </section>
         </div>
     </div>
   )

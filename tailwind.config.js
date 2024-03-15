@@ -9,7 +9,11 @@ module.exports = {
     extend: {
       colors: {
         "main-1":"#fd5f16",
-        "text-color":"#fff"
+        "text-color":"#ccc",
+        "main-2":"#fde242",
+        "main-3":"#E7E3E3",
+        "main-4":"#F6F4F4",
+        "main-5":"#FFFBFB",
       },
       screens: {
         'sm': '640px',

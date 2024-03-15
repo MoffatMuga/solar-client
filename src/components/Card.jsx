@@ -13,11 +13,6 @@ const cards = [
         description: ""
     },
     {
-        image: "/solar-installation.jpg",
-        title: "SOLAR PV DESIGNING",
-        description: ""
-    },
-    {
         image: "/solar-maintenance.jpg",
         title: "SOLAR MAINTENANCE",
         description: ""
@@ -26,7 +21,7 @@ const cards = [
 
 export default function Card() {
   return (
-    <div className='items-center md:flex md:flex-row '>
+    <div className='items-center md:flex md:flex-row justify-around '>
 
         {cards.map((card, index) => (
             <div key={index} className='rounded shadow-md gap-3 px-4 h-[450px] md:w-[300px]'>

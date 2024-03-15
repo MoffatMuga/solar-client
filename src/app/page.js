@@ -6,16 +6,17 @@ import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 
 
+
 export default function home() {
 
   return (
 
       <div className=' pt-0 '>
-          {/* <div>
+          <div>
             <section>
               <Hero />
             </section>
-          </div> */}
+          </div>
 
         
             <div >
